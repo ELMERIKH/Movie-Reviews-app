@@ -1,0 +1,20 @@
+const express = require('express');
+const router = express.Router();
+const Movie = require('../models/movie');
+
+router.patch('/:id', (req, res) => {
+    const id = req.params.id;
+     const { rating } = req.body;
+    
+
+    Movie.findByIdAndUpdate(id, { $set:{rating} } , { new: true })
+        .then(movie => {
+            res.status(200).json({ message: 'Movie rated successfully', movie });
+        })
+        .catch(err => {
+            res.status(500).json({
+                error: err
+            });
+        });
+});
+module.exports= router;

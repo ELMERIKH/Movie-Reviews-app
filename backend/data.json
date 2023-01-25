@@ -1,0 +1,176 @@
+[
+    {
+      "title": "Jurassic Park",
+      "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+      "release_date": "1993-06-09",
+      "rating": 8,
+      "image": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "release_date": "1994-09-23",
+      "rating": 9,
+      "image": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,672,1000_AL_.jpg"
+    },
+    {
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "release_date": "1972-03-24",
+      "rating": 9,
+      "image": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SY1000_CR0,0,704,1000_AL_.jpg"
+    },
+    {
+        "title": "The Dark Knight",
+        "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "release_date": "2008-07-16",
+        "rating": 9,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+    },
+    {
+        "title": "Inception",
+        "description": "A thief who steals corporate secrets through use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "release_date": "2010-07-08",
+        "rating": 8.8,
+        "image": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
+    }, {
+        "title": "The Social Network",
+        "description": "Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, but is later sued by two brothers who claimed he stole their idea, and the co-founder who was later squeezed out of the business.",
+        "release_date": "2010-10-01",
+        "rating": 7.7,
+        "image": "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SY1000_CR0,0,666,1000_AL_.jpg"
+      },
+      {
+        "title": "The King's Speech",
+        "description": "The story of King George VI of the United Kingdom of Great Britain and Northern Ireland, his impromptu ascension to the throne and the speech therapist who helped the unsure monarch become worthy of it.",
+        "release_date": "2010-11-26",
+        "rating": 8.0,
+        "image": "https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "The Artist",
+        "description": "A silent movie star meets a young dancer, but the arrival of talking pictures sends their careers in opposite directions.",
+        "release_date": "2011-05-20",
+        "rating": 8.0,
+        "image": "https://m.media-amazon.com/images/M/MV5BMTYzNjkxMTczOF5BMl5BanBnXkFtZTcwMzY2MDgwNw@@._V1_SY1000_CR0,0,676,1000_AL_.jpg"
+      },
+    {
+        "title": "One Piece: Stampede",
+        "description": "Monkey D. Luffy and his Straw Hat pirate crew are invited to a massive Pirate Festival that brings many of the most iconic characters from throughout the franchise to participate in competition with the Straw Hats to find Roger's treasure.",
+        "release_date": "2019-08-09",
+        "rating": 8.2,
+        "image": "https://resizing.flixster.com/kXt-A_MtZSpUSmKezL--B8Zw8ps=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Y4NDM0ZDU0LTk3YzktNDg2Ny1hYzVlLTA5MzgxZjZmNzcwMy53ZWJw"
+    },
+    {
+        "title": "The Lord of the Rings: The Return of the King",
+        "description":"a sorcerer that travels with hobbits to find a ring",
+        "release_date": "2003-12-01",
+        "rating": 9.0,
+        "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg"
+      },
+      {
+        "title": "The Irishman",
+        "description": "A mob hitman recalls his possible involvement with the slaying of Jimmy Hoffa.",
+        "release_date": "2019-11-01",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BMGUyM2ZiZmUtMWY0Ni00MjdlLTg3NjAtZDQ2ZjM2MjQ2MjdkXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "Parasite",
+        "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+        "release_date": "2019-05-30",
+        "rating": 8.6,
+        "image": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "Joker",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "Jujutsu kaisen",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://resizing.flixster.com/0dU4a-JyouH-Boeu4CIYMyLFxxQ=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzRhOTE2MDQzLWM0NmItNDYyNC05NWVmLTlhMmYyMjNmYmZmMi5wbmc="
+      },
+      {
+        "title": "Your name",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://flxt.tmsimg.com/assets/p13207488_v_v10_aa.jpg"
+      },
+      {
+        "title": "one piece film red",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://resizing.flixster.com/euRip3R3jR-lXgqdxJx5ldi63Rw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2I4ZDRmNzEyLTI5ODUtNDA1Mi1hOTg0LTU4Njc4NWIxZmViYy5qcGc="
+      },
+      {
+        "title": "Bright",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://flxt.tmsimg.com/assets/p14381112_v_v8_ab.jpg"
+      },
+      {
+        "title": "star wars:tales of the jedi",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://resizing.flixster.com/qBab7KKueN7CePfJp-IDhbdnhjQ=/fit-in/1152x864/v2/https://flxt.tmsimg.com/assets/p22969938_b_v10_ac.jpg"
+      },
+      {
+        "title": "pirate of the caraibes",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://resizing.flixster.com/yZ2Tl48VH_n0gX6o53xZN92zsU8=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzRkOTUyNmEyLTA4ZmYtNDk4ZC05YjY4LTllNjZjOGNlNjBjOC53ZWJw"
+      },
+      {
+        "title": "Joker",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "Joker",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "Joker",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "Joker",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+      {
+        "title": "",
+        "description": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "release_date": "2019-10-02",
+        "rating": 8.5,
+        "image": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg"
+      },
+
+    {
+        "title": "Attack on Titan: No Regrets",
+        "description": "The story of Captain Levi, humanity's strongest soldier, and his relationship with Captain Erwin.",
+        "release_date": "2015-12-09",
+        "rating": 8.1,
+        "image": "https://flxt.tmsimg.com/assets/p19166654_v_v8_aa.jpg"
+    }]

@@ -1,0 +1,13 @@
+Set up a MongoDB database to store movie and user information.
+
+Create a Node.js server using Express.js to handle API routes and connect to the MongoDB database.
+
+Build the front-end using React.js, including pages for movie listings, individual movie pages, user authentication and registration, and commenting on movies.
+
+Implement user authentication and registration using JSON web tokens (JWT) and bcrypt.
+
+Create an API to handle CRUD (create, read, update, delete) operations for movies, reviews, and users.
+
+Connect the front-end and back-end by making API calls to the server from the React components.
+
+Deploy the application to a hosting platform like Heroku or AWS.
