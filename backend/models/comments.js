@@ -10,6 +10,11 @@ const commentSchema = new mongoose.Schema({
     ref: 'User',
     required: true
   },
+  email: {
+    type: String,
+    ref: 'User',
+    
+  },
   movie: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Movie',

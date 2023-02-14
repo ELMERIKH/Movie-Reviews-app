@@ -2,33 +2,43 @@
 const express = require('express');
 const router = express.Router();
 const Comment = require('../models/comments');
-
+const User = require('../models/users');
 // Create a new comment
 router.post('/create', async (req, res) => {
-    try{
-        const { text, user, movie } = req.body;
-        const comment = new Comment({
-            text,
-            user,
-            movie
-        });
-        const savedComment = await comment.save();
-        res.status(201).json({ message: 'Comment created successfully', comment: savedComment });
-    }catch(err){
-        res.status(500).json({ error: err });
+    try {
+      const { text, movie,email } = req.body;
+      const user = await User.findOne({ email: email });
+  if (!user) {
+    res.status(500).send("Error creating comments");
+   
+  }
+
+  // Create the comment document with the user ID
+  const comment = new Comment({
+    text,
+    user: user._id,
+    email:email,
+    movie
+    
+  });
+     
+      await comment.save();
+      res.send({ comment });
+    } catch (err) {
+      console.error(err);
+      res.status(500).send({ message: 'Server error' });
     }
-});
+  });
 
 // Get all comments
 router.get('/getall', async (req, res) => {
-    try{
-        const comments = await Comment.find().populate('user', '-password').populate('movie');
-        res.status(200).json({ comments });
-    }catch(err){
-        res.status(500).json({ error: err });
-    }
-});
-
+     const movie = req.query.movie;
+        Comment.find({ movie: movie }, (err, comments) => {
+            if (err) return res.status(500).send("Error retrieving comments");
+            res.send({ comments });
+          });
+   
+  });
 // Get a single comment by ID
 router.get('/get-:id', async (req, res) => {
     try{
