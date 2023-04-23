@@ -4,7 +4,7 @@ const Movie = require('../models/movie');
 
 
 
-// Get all movies
+
 router.get('/getall', async (req, res) => {
     try{
         const movies = await Movie.find();
@@ -14,7 +14,7 @@ router.get('/getall', async (req, res) => {
     }
 });
 
-// Get a single movie by ID
+
 router.get('/:id', async (req, res) => {
     try{
         const id = req.params.id;

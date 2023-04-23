@@ -1,5 +1,4 @@
 const express = require('express');
-const products = require('./models/products');
 const app = express();
 const cors= require("cors");
 
@@ -21,13 +20,17 @@ app.use('/api/rating', raitingsRoutes);
 app.use('/api/comments', commRoutes);
 app.use('/api/movie', movieRoutes);
 app.use('/api', AdminRoutes);
+
+
+
+
 app.use((req, res, next) => {
   try {
   const token = req.headers.authorization.split(' ')[1];
   const decoded = jwt.verify(token, process.env.SECRET_KEY);
    req.userData = decoded;
     next();
-} catch (error) {console.log("errorororo") 
+} catch (error) {console.log("errorororo**") 
    return res.status(401).json({ message: 'Auth failed'    });
    
   }

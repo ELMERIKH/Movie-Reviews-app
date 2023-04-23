@@ -60,7 +60,6 @@ const checkJWT = (req, res, next) => {
          try{   const movieId = req.params.id;
             const updatedMovie = req.body;
           
-            // Update the movie in the database
             Movie.findByIdAndUpdate(movieId, updatedMovie, { new: true }, (err, movie) => {
               if (err) return res.status(500).send(err);
               return res.send(movie);

@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/users');
 const Movie = require('../models/movie');
 
-// Register a new user
+
 router.post('/register', async (req, res) => {
     try {
         const { username , email, password, } = req.body;
@@ -23,7 +23,7 @@ router.post('/register', async (req, res) => {
     }
 });
 
-// Login a user
+
 router.post('/login', async (req, res) => {
     try {
         const { username ,email, password } = req.body;

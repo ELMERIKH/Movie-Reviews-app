@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 const Comment = require('../models/comments');
 const User = require('../models/users');
-// Create a new comment
+
 router.post('/create', async (req, res) => {
     try {
       const { text, movie,email } = req.body;
@@ -13,7 +13,7 @@ router.post('/create', async (req, res) => {
    
   }
 
-  // Create the comment document with the user ID
+  
   const comment = new Comment({
     text,
     user: user._id,
@@ -30,7 +30,7 @@ router.post('/create', async (req, res) => {
     }
   });
 
-// Get all comments
+
 router.get('/getall', async (req, res) => {
      const movie = req.query.movie;
         Comment.find({ movie: movie }, (err, comments) => {
@@ -39,45 +39,7 @@ router.get('/getall', async (req, res) => {
           });
    
   });
-// Get a single comment by ID
-router.get('/get-:id', async (req, res) => {
-    try{
-        const id = req.params.id;
-        const comment = await Comment.findById(id).populate('user', '-password').populate('movie');
-        if (comment) {
-            res.status(200).json({ comment });
-        } else {
-            res.status(404).json({ message: 'Comment not found' });
-        }
-    }catch(err){
-        res.status(500).json({ error: err });
-    }
-});
 
-// Update a comment by ID
-router.patch('/update-:id', async (req, res) => {
-    try{
-        const id = req.params.id;
-        const updateOps = {};
-        for (const ops of req.body) {
-            updateOps[ops.propName] = ops.value;
-        }
-        const result = await Comment.update({ _id: id }, { $set: updateOps }).exec();
-        res.status(200).json({ message: 'Comment updated', result });
-    }catch(err){
-        res.status(500).json({ error: err });
-    }
-});
 
-// Delete a comment by ID
-router.delete('/delete-:id', async (req, res) => {
-    try{
-        const id = req.params.id;
-        const result = await Comment.remove({ _id: id }).exec();
-        res.status(200).json({ message: 'Comment deleted', result });
-    }catch(err){
-        res.status(500).json({ error: err });
-    }
-});
 
 module.exports = router;
